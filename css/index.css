@@ -1,7 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Dosis:300);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300|Roboto+Slab);
-@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
-@import url(https://fonts.googleapis.com/css?family=Arvo);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Slab);
 :root {
     --main-el-color: rgba(245, 245, 245, 0.25);
     --main-el-hover-color: rgba(146, 146, 146, 0.33);
@@ -18,8 +15,8 @@ p {
 }
 
 .btn-primary {
-    /*font-family: 'Roboto Slab', serif; font-weight: 300;*/
-    font-family: 'Share Tech Mono', serif;
+    font-family: 'Roboto Slab', serif; font-weight: 300;
+    /*font-family: 'Share Tech Mono', serif;*/
     font-family: 'Arvo', serif;
     height: 15%;
     width: 100%;
@@ -38,7 +35,6 @@ p {
 .btn-primary:focus, .btn-primary:hover {
     background-color: rgba(146, 146, 146, 0.33);
     color: whitesmoke !important;
-    border-color: rgba(245, 245, 245, 0.75);
 }
 
 .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus,
@@ -48,7 +44,6 @@ p {
     color: whitesmoke !important;
     font-color: whitesmoke;
     background-color: rgba(245, 245, 245, 0.50);
-    border-color: transparent;
 }
 
 /*
@@ -175,7 +170,7 @@ body {
 
 @media (max-width: 767px) {
     .btn-primary {
-        font-size: 7.5vw;
+        font-size: 6vh;
         width: 100%;
     }
     .cover {
@@ -196,5 +191,3 @@ body {
         width: 700px;
     }
 }
-
-
