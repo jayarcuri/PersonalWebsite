@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Arvo);
 :root {
     --main-el-color: rgba(245, 245, 245, 0.25);
     --main-el-hover-color: rgba(146, 146, 146, 0.33);
@@ -15,14 +15,13 @@ p {
 }
 
 .btn-primary {
-    font-family: 'Roboto Slab', serif; font-weight: 300;
-    /*font-family: 'Share Tech Mono', serif;*/
     font-family: 'Arvo', serif;
     height: 15%;
     width: 100%;
     font-size: 6vw;
-    font-shadow: 0 3px 6px rgba(0,0,0,0.33), 0 3px 6px rgba(0,0,0,0.23);
-    color: rgba(52, 152, 219, 0.8);
+    /*text-shadow: 0 3px 6px rgba(0,0,0,0.33), 0 3px 6px rgba(0,0,0,0.23);
+    color: rgba(52, 152, 219, 0.8);*/
+    color: black;
     border-radius: 0px;
     border-width: 0px;
     background-color: transparent;
@@ -60,12 +59,12 @@ body {
 }
 body {
     color: #fff;
-    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    /*text-shadow: 0 1px 3px rgba(0,0,0,.5);
     background: url(../media/images/airport_level.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
