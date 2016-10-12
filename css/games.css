@@ -1,17 +1,15 @@
-/*@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic);*/
-
-@@font-face {
-  font-family: "Futura";
-  src: url("../fonts/Futura-Medium-BT.ttf");
+@font-face {
+    font-family: "Futura";
+    src: url("../fonts/Futura-Medium-BT.ttf");
 }
 
 p {
-  font-family: "Futura";
+    font-family: "Futura";
 }
 
 .portfolio-item {
-  right: 0;
-  margin: 0 0 15px;
+    right: 0;
+    margin: 0 0 15px;
 }
 
 .portfolio-item .img-wrap {
@@ -19,43 +17,43 @@ p {
 }
 
 .portfolio-item a {
-  color: black;
+    color: black;
 }
 
 .portfolio-item .img-wrap .img-responsive {
-  width: 100%;
-  height: 200px;
-  position: relative;
-  object-fit: cover;
-  overflow:hidden;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    width: 100%;
+    height: 200px;
+    position: relative;
+    object-fit: cover;
+    overflow:hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .portfolio-item .projectDescription {
-  position: absolute;
-  height: 200px;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: rgba(238, 238, 238, 0.75);
-  color: black;
-  font-size: 14px;
+    position: absolute;
+    height: 200px;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(238, 238, 238, 0.75);
+    color: black;
+    font-size: 14px;
 
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: all ease .5s;
-      -moz-transition: all ease .5s;
-      transition: all ease .5s;
-  /*remove comment if you want a gradual transition between states
-  -webkit-transition: visibility opacity 0.2s;
-  */
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    /*remove comment if you want a gradual transition between states
+    -webkit-transition: visibility opacity 0.2s;
+    */
 }
 
 .portfolio-item:hover .projectDescription, .portfolio-item:focus .projectDescription {
-  visibility: visible;
-  opacity: 1;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    visibility: visible;
+    opacity: 1;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 @media (max-width: 992px) {
@@ -63,6 +61,6 @@ p {
         height: 400px;
     }
     .portfolio-item .projectDescription {
-      height: 400px;
+        height: 400px;
     }
 }

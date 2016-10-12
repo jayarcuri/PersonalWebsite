@@ -4,6 +4,7 @@
 
 // File names for images
 var imagesArray = ["trail_level.gif", "pool_level.gif", "airport_level.gif", "summer_level.gif"];
+//var colorsArray = ['rgba(46, 204, 113,1.0)', 'rgba(255, 224, 189, 0.8)', 'rgba(192, 57, 43, 1.0)', 'rgba(245, 215, 110, 255)'];
 var colorsArray = ['rgba(210, 77, 87, 1.0)', 'rgba(255, 224, 189, 1.0)', 'rgba(65, 131, 215, 1.0)', 'rgba(244, 208, 63, 255)'];
 
 
